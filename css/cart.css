@@ -1,0 +1,133 @@
+/* =========== cart =========== */
+.cart__link-top {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+   color: var(----color-dark);
+   font-size: 20px;
+   padding: 15px;
+}
+.cart__box {
+   display: flex;
+   gap: 35px 4%;
+}
+.cart__box-item {
+   width: 48%;
+} 
+.cart__box-txt {
+   padding: 30px 0 0;
+}
+/* .cart__subtitle {
+   padding-bottom: 5px;
+   border-bottom: 1px solid var(--bb);
+   width: 100%;
+} */
+.cart__hr-top {
+   border-top: 4px solid var(--rw);
+   width: 100%;
+   opacity: 1;
+   margin: 5px 0 15px;
+}
+.cart__txt-t {
+   margin-bottom: 10px;
+}
+.cart__mintitle-color {
+   font-size: 18px;
+   font-weight: 400;
+}
+.cart__txt-link {
+   display: flex;
+   gap: 8px;
+   font-size: 15px;
+   margin-bottom: 5px;
+   color: var(----color-dark);
+}
+.cart__txt-link img {
+   width: 18px;
+   opacity: 0.8;
+}
+/* ------------------------------ */
+
+/* ------------------------------ */
+.cart__artikul {
+   display: block;
+   font-size: 15px;
+   margin-bottom: 16px;
+   opacity: 0.6;
+}
+.cart__hr-subtop {
+   border-top: 1px solid var(--color-mt);
+   width: 100%;
+   opacity: 0.2;
+   margin: 0px 0 7px;
+}
+.cart__btn {
+   color: var(--st);
+   margin-top: 50px;
+}
+.cart__hr-bottom {
+   border-top: 1px solid var(--color-mt);
+   width: 100%;
+   opacity: 0.2;
+   margin: 50px 0 20px;
+}
+.cart__available {
+   margin: 8px 0 5px;
+   font-size: 16px;
+   font-weight: 600;
+}
+.cart__volume {
+   margin-bottom: 5px;
+   font-size: 14px;
+}
+.cart__block {
+   margin-bottom: 50px;
+}
+.cart__block-unit {
+   max-width: 900px;
+   margin: 0 auto;
+}
+.cart__title-medium {
+   margin-bottom: 15px;
+   font-size: 24px;
+}
+.cart__text-bot {
+   margin-bottom: 15px;
+   font-size: 16px;
+   font-weight: 500;
+}
+.cart__list {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+   margin-bottom: 15px;
+}
+.cart__list-li {
+   list-style: inside;
+   font-size: 14px;
+   line-height: 1.5;
+   margin-bottom: 5px;
+}
+.cart__list-li::marker {
+   color: var(--bb);
+}
+
+
+
+
+
+
+/* ====== Медиа 1140px ====== */
+@media (max-width: 1140px) {
+   .cart__box {
+      flex-direction: column;
+   }
+   .cart__box-item {
+      width: 100%;
+   }
+   .cart__block {
+      flex-direction: column;
+   }
+}
+
+
